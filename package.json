@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@drumshtick/lotide",
   "version": "1.0.0",
-  "description": "A practical replication of lodash",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Drumshtick/lotide.git"
   },
-  "author": "Erik Kodnar",
+  "author": "Erik Kodnar <ekodnar@outlook.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Drumshtick/lotide/issues"

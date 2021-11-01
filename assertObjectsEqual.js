@@ -62,14 +62,6 @@ const assertObjectsEqual = function(object1, object2) {
   }
 };
 
-assertObjectsEqual({a: 2, b: 4}, {b: 4, a:2});
-/*
-const assertObjectsEqual = function(actual, expected) {
-  const inspect = require('util').inspect;
-  if(actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${inspect(actual)} === ${inspect(expected)} `);
-  } else {
-    console.log(`🚩🚩🚩 Assertion Failed: ${inspect(actual)} !== Array 2 `);
-  }
-};
-*/
+// assertObjectsEqual({a: 2, b: 4}, {b: 4, a:2});
+
+module.exports = assertObjectsEqual;
